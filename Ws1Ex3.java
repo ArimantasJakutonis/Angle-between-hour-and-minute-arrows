@@ -14,7 +14,7 @@ public class Ws1Ex3
 		return (hours%12 * 30 + 360 + 0.5 * (minutes+seconds/60) - (minutes+seconds/60) * 6 )%360;
 	}
 
-	/** Printing different areas according to the radius*/
+	/** Printing different angles depending on the time given as hh.mm.ss*/
 	public static void main(String[] args)
 	{
 		System.out.println(timeToAngle(9,00,00));
